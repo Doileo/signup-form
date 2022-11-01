@@ -225,7 +225,7 @@ button {
 }
 
 footer {
-  margin: 1.5rem 1.5rem;
+  margin: 2.75rem 1.5rem;
   padding-inline: 1.5rem;
   text-align: center;
   font-size: 0.8rem;
@@ -245,15 +245,15 @@ footer {
 /***** Desktop display larger than 1200 px wide *****/
 
 @media only screen and (min-width: 1200px) {
-
   body {
     display: grid;
     grid-template-rows: 2em 7vh auto 5em;
     grid-template-columns: 2fr 2fr 0fr 0fr;
-    grid-template-areas: "header . . ."
-    ".  main main ."
-    ". . . ."
-    "footer footer footer footer";
+    grid-template-areas:
+      "header . . ."
+      ".  main main ."
+      ". . . ."
+      "footer footer footer footer";
   }
 
   header {
@@ -279,8 +279,8 @@ footer {
   }
 
   header {
-    max-width: 80%;
-    padding: 8rem 0 0 8rem;
+    max-width: 90%;
+    padding: 12rem 0 9rem 12rem;
   }
 
   h1 {
@@ -296,11 +296,16 @@ footer {
   }
 
   main {
-    padding: 4.5rem 10rem 0 0;
+    padding: 4.5rem 9rem 0 6rem;
+  }
+
+  .form-wrapper {
+    max-width: 425px;
   }
 
   .trial-option {
-    padding: 1rem 4rem;
+    max-width: 425px;
+    padding: 1rem 3rem;
   }
 
   .trial-option a {
@@ -311,6 +316,18 @@ footer {
     font-size: 1rem;
   }
 
+  form div img {
+    position: relative;
+    left: 20.5rem;
+    bottom: 2rem;
+  }
 
+  button {
+    transition: all 0.1s ease;
+    cursor: pointer;
+  }
 
+  button:hover {
+    opacity: 0.8;
+  }
 }
