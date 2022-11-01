@@ -248,7 +248,7 @@ footer {
 
   body {
     display: grid;
-    grid-template-rows: 2em 7vh auto 7em;
+    grid-template-rows: 2em 7vh auto 5em;
     grid-template-columns: 2fr 2fr 0fr 0fr;
     grid-template-areas: "header . . ."
     ".  main main ."
@@ -280,7 +280,7 @@ footer {
 
   header {
     max-width: 80%;
-    padding: 8rem 0 0 10rem;
+    padding: 8rem 0 0 8rem;
   }
 
   h1 {
