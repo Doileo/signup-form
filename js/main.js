@@ -20,7 +20,7 @@ form.addEventListener("submit",  (e) => {
 
     engine(firstname, 0, "First Name cannot be empty");
     engine(lastname, 1, "Last Name cannot be empty");
-    engine(email, 2, "Looks line this is not an email");
+    engine(email, 2, "Looks like this is not an email");
     engine(password, 3, "Password cannot be empty");
 });
 
