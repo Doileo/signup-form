@@ -44,5 +44,3 @@ let engine = (id, serial, message) => {
         errorIcon[serial].style.opacity = "0";
     }
 };
-
-//My form doesn't respond to any inputs
